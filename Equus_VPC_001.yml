@@ -17,6 +17,9 @@ Metadata:
           - ProtectedSubnets
           - PrivateSubnets
           - NATType
+          - PublicSecurityGroup
+          - ProtectedSecurityGroup
+          - PrivateSecurityGroup
     ParameterLabels:
         ClientName:
             default: "Client's Name"
@@ -28,6 +31,9 @@ Metadata:
             default: "Private Subnets"
         NATType:
             default: "NAT Type"
+        PublicSecurityGroup: "Public SG"
+        ProtectedSecurityGroup: "Protected SG"
+        PrivateSecurityGroup: "Private SG"
 # ====================================================================================================================================================================================
 Parameters:
   ClientName:
