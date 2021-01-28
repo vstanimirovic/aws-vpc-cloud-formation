@@ -31,9 +31,12 @@ Metadata:
             default: "Private Subnets"
         NATType:
             default: "NAT Type"
-        PublicSecurityGroup: "Public SG"
-        ProtectedSecurityGroup: "Protected SG"
-        PrivateSecurityGroup: "Private SG"
+        PublicSecurityGroup: 
+            default: "Public SG"
+        ProtectedSecurityGroup: 
+            default: "Protected SG"
+        PrivateSecurityGroup: 
+            default: "Private SG"
 # ====================================================================================================================================================================================
 Parameters:
   ClientName:
